@@ -8,3 +8,4 @@ export const LbFooter = () => {
     </div>
   );
 }
+ 

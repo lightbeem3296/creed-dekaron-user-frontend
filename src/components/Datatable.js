@@ -182,3 +182,4 @@ export const Datatable = ({ url, columns }) => {
     </ConfigProvider>
   );
 }
+ 

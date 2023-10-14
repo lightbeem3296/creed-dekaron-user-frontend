@@ -19,3 +19,4 @@ export const LbCharacterPanel = ({ title, children }) => {
     </div>
   );
 }
+ 
