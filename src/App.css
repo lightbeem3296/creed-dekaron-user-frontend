@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+  margin: 0rem;
+  background-color: #141414;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.lb-header-size {
+  height: 5rem;
+}
+
+.lb-footer-size {
+  height: 3rem;
+}
+
+.lb-content-size {
+  height: calc(100vh - 8rem);
+}
+
+.lb-content-min-size {
+  min-height: calc(100vh - 8rem);
+}
+
+.lb-title-font {
+  font-family: 'Cinzel Decorative';
+}
+
+.lb-text-font {
+  font-family: 'Abel', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.lb-text-shadow {
+  text-shadow: 0.08em 0.08em 0.06em #000000ff;
+}
+
+.lb-bg-img-banner {
+  background-image: url(./assets/img/banner.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-blend-mode: hard-light;
+  background-color: #212226;
+}
+
+.lb-bg-img-content {
+  background-image: url(./assets/img/concrete.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lb-bg-img-footer {
+  background-image: url(./assets/img/footer.jpg), linear-gradient(180deg, rgba(8, 8, 8, 0.3) 0%, rgba(8, 8, 8, 0.71) 100%);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.lb-transition {
+  transition: all 500ms;
+}
+
+.lb-color-sel {
+  background-color: #cda754;
+}
+
+.lb-btn-color {
+  background-color: #3f3f46;
+}
+
+.lb-btn-color:disabled {
+  background-color: #3f3f46;
+}
+
+.lb-btn-color:hover {
+  background-color: #71717a;
+}
+
+.lb-btn-color-sel {
+  background-color: #b58c33;
+}
+
+.lb-btn-color-sel:hover {
+  background-color: #c59c43;
+}
+
+.lb-btn-color-sel:disabled {
+  cursor: not-allowed;
+}
