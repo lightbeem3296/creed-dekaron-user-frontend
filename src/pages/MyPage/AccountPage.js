@@ -87,3 +87,4 @@ export const ProfileAccountPage = () => {
     </LbPageTransition>
   );
 }
+ 
