@@ -7,4 +7,4 @@ export const SignoutPage = () => {
     <Navigate to='/welcome' />
   );
 }
-    
+     
