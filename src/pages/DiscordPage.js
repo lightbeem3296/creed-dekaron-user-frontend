@@ -24,4 +24,4 @@ export const DiscordPage = () => {
     </LbPageTransition>
   )
 }
-  
+   
