@@ -64,4 +64,4 @@ export const ProfileGiftCoinsPage = () => {
     </LbPageTransition>
   )
 }
-            
+             
