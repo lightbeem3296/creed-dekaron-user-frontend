@@ -219,4 +219,4 @@ export const SignupPage = () => {
     </LbPageTransition>
   )
 }
-          
+           
