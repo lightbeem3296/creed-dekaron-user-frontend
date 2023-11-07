@@ -28,4 +28,4 @@ export const handleResponse = (axios_response, success_callback, error_callback)
 export const go2url = (url_str) => {
   window.location.href = url_str;
 }
-                           
+                            
